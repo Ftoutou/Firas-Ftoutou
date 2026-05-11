@@ -41,22 +41,6 @@ Currently based in **Sousse, Tunisia**, working as a **Research Engineer** at Sa
 
 ---
 
-## FOD Soft — Deployed Clinical Tool
-
-**FOD Soft** is a lightweight desktop application I developed in October 2024 during my work as a Medical Engineer at Freedom Ophthalmic Distribution, Tunisia.
-
-**The problem it solves:** Ophthalmologists using the **Optos Silverstone** (ultra-widefield retinal imaging) had to rely on static 2D DICOM images or heavy viewer software to analyze 3D OCT scans. FOD Soft converts these 3D OCT DICOM stacks into MP4 videos, enabling dynamic visualization directly on any computer — no DICOM viewer required.
-
-**Real-world impact:**
--  Installed in multiple ophthalmic clinics across Tunisia
--  Used daily as a core diagnostic tool by ophthalmologists
--  Supports all standard DICOM (.dcm) files across imaging domains
--  Built with: Python · Tkinter · SimpleITK · NumPy · OpenCV
-
-> *"A locally developed solution making a real impact in clinical workflows."*
-
----
-
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Firas_Ftoutou-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/firas-ftoutou-018b38291)
