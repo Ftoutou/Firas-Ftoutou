@@ -14,6 +14,7 @@ Currently based in **Sousse, Tunisia**, working as a **Research Engineer** at Sa
 - **Ophthalmic AI diagnostics** — retinal image analysis and disease detection (OCT, fundus imaging)
 - **3D reconstruction & visualization** — volume rendering, mesh generation, interactive medical viewers (VTK, PyVista)
 - **Clinical AI pipelines** — end-to-end from DICOM/NIfTI preprocessing to model deployment
+- **Medical desktop software** — lightweight clinical tools deployed in real hospital environments
 
 ---
 
@@ -22,7 +23,7 @@ Currently based in **Sousse, Tunisia**, working as a **Research Engineer** at Sa
 **Languages:** Python · MATLAB · C++ · Java  
 **Deep Learning:** PyTorch · TensorFlow · Keras · U-Net · V-Net · CNNs · Vision Transformers  
 **Medical Imaging:** MRI · CT · OCT · DICOM · NIfTI · SimpleITK · NiBabel · FreeSurfer · HippMapp3r  
-**Visualization:** VTK · PyVista · napari  
+**Visualization:** VTK · PyVista · napari · OpenCV · Tkinter  
 **MLOps:** Docker · Git · GitHub · Weights & Biases · Linux · GCP · AWS  
 
 ---
@@ -32,10 +33,27 @@ Currently based in **Sousse, Tunisia**, working as a **Research Engineer** at Sa
 | Project | Description | Tech |
 |---|---|---|
 | Hippocampus Segmentation | 2D/3D deep learning for Alzheimer's disease (U-Net, V-Net) | PyTorch · NIfTI |
+| FOD Soft | Desktop app converting 3D OCT DICOM stacks to MP4 video for ophthalmic clinics — deployed across multiple clinics in Tunisia | Python · SimpleITK · OpenCV · Tkinter |
 | Retinal Disease Detection | CNN-based detection with 3D OCT visualization | PyTorch · OpenCV |
 | 3D Medical Image Viewer | Interactive volume rendering and mesh navigation | VTK · PyVista |
 | Brain Tumor Segmentation | Multi-sequence MRI preprocessing and segmentation | SimpleITK · PyTorch |
 | Smart Eye Platform | Multimodal ophthalmic imaging platform with AI reports | FastAPI · PyTorch |
+
+---
+
+## FOD Soft — Deployed Clinical Tool
+
+**FOD Soft** is a lightweight desktop application I developed in October 2024 during my work as a Medical Engineer at Freedom Ophthalmic Distribution, Tunisia.
+
+**The problem it solves:** Ophthalmologists using the **Optos Silverstone** (ultra-widefield retinal imaging) had to rely on static 2D DICOM images or heavy viewer software to analyze 3D OCT scans. FOD Soft converts these 3D OCT DICOM stacks into MP4 videos, enabling dynamic visualization directly on any computer — no DICOM viewer required.
+
+**Real-world impact:**
+-  Installed in multiple ophthalmic clinics across Tunisia
+-  Used daily as a core diagnostic tool by ophthalmologists
+-  Supports all standard DICOM (.dcm) files across imaging domains
+-  Built with: Python · Tkinter · SimpleITK · NumPy · OpenCV
+
+> *"A locally developed solution making a real impact in clinical workflows."*
 
 ---
 
